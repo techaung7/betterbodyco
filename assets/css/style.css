@@ -1,0 +1,153 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+
+.logo img {
+  height: 50px;
+}
+
+.page-banner-wrap {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page-heading {
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+.page-title h1 {
+  color: #ffffff;
+  font-size: 36px;
+  margin: 0;
+}
+
+.post-cat a {
+  display: inline-block;
+  padding: 8px 20px;
+  margin-right: 10px;
+  background-color: #cfc0c8;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.post-cat a:hover {
+  background-color: #FF1493;
+}
+.blog-wrapper {
+  background-color: #f9f9f9;
+}
+
+.blog-post-details {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 1.5em;
+}
+
+.blog-post-details h2 {
+  font-size: 2em;
+  margin: 1.5em 0;
+}
+
+.post-meta {
+  margin: 1.5em 0;
+  color: #999;
+}
+
+.post-meta span {
+  margin-right: 1.5em;
+}
+
+.post-meta i {
+  margin-right: 0.5em;
+  color: #999;
+}
+
+.post-content p {
+  margin: 1.5em 0;
+}
+
+.post-content ul li:before {
+  content: "\2022";
+  margin-right: 0.5em;
+  color: #007bff;
+}
+
+.post-content h3 {
+  font-size: 1.5em;
+  margin: 2em 0 1em;
+}
+
+.post-content ol {
+  list-style: decimal;
+  margin: 1em 0;
+  padding: 0 0 0 2em;
+}
+
+.post-content ol li {
+  margin: 0.5em 0;
+}
+
+.post-content a {
+  text-decoration: underline;
+}
+
+.post-content img.alignleft {
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+.photo.moving img {
+  animation: movePhoto 2s ease-in-out infinite alternate;
+}
+
+@keyframes movePhoto {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(20px);
+  }
+}
+
+
+.disclaimer-class {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 20px 0;
+  }
+  
+  .disclaimer-class p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 10px 0;
+  }
+  
+  .disclaimer-class strong {
+  font-weight: bold;
+  }
+
+.footer-bottom {
+  background-color: #cfc0c8;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+.footer-bottom-content {
+  color: #000000;
+}
